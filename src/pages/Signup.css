@@ -1,0 +1,43 @@
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url("https://images.unsplash.com/photo-1529634895326-1b0f5f6a7a60?q=80&w=2000");
+  background-size: cover;
+  background-position: center;
+}
+
+.signup-form {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 12px;
+  background: #8b0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form span {
+  color: #8b0000;
+  cursor: pointer;
+}

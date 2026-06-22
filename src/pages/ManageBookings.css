@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.bookings-container{
+  min-height:100vh;
+  background:#f4f6f9;
+  padding:30px;
+}
+
+.booking-header{
+  margin-bottom:25px;
+}
+
+.booking-header h1{
+  color:#8b0000;
+}
+
+.booking-table{
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th{
+  background:#8b0000;
+  color:white;
+  padding:14px;
+}
+
+td{
+  padding:14px;
+  text-align:center;
+  border-bottom:1px solid #ddd;
+}
+
+.approved{
+  color:green;
+  font-weight:bold;
+}
+
+.pending{
+  color:orange;
+  font-weight:bold;
+}
+
+.approve-btn{
+  background:#198754;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:6px;
+  cursor:pointer;
+  margin-right:5px;
+}
+
+.reject-btn{
+  background:#dc3545;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:6px;
+  cursor:pointer;
+  margin-right:5px;
+}
+
+.view-btn{
+  background:#0d6efd;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:6px;
+  cursor:pointer;
+}

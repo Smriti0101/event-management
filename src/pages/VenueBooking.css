@@ -1,0 +1,167 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial, sans-serif;
+}
+
+/* Hero Section */
+
+.hero{
+
+  height:60vh;
+
+  background:
+  linear-gradient(
+  rgba(0,0,0,0.5),
+  rgba(0,0,0,0.5)
+  ),
+
+  url("https://images.unsplash.com/photo-1519741497674-611481863552?w=2000");
+
+  background-size:cover;
+
+  background-position:center;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+}
+
+.overlay{
+
+  text-align:center;
+
+  color:white;
+}
+
+.overlay h1{
+
+  font-size:60px;
+
+  margin-bottom:20px;
+}
+
+.overlay p{
+
+  font-size:22px;
+
+  margin-bottom:25px;
+}
+
+.overlay button{
+
+  padding:15px 35px;
+
+  background:#d4af37;
+
+  color:black;
+
+  border:none;
+
+  border-radius:30px;
+
+  font-weight:bold;
+
+  cursor:pointer;
+}
+
+/* Cards */
+
+.venue-page{
+
+  background:#f5f5f5;
+}
+
+.venue-grid{
+
+  padding:60px;
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(320px,1fr));
+
+  gap:30px;
+}
+
+.venue-card{
+
+  background:white;
+
+  border-radius:20px;
+
+  overflow:hidden;
+
+  box-shadow:
+  0 10px 25px rgba(0,0,0,0.15);
+
+  transition:0.3s;
+}
+
+.venue-card:hover{
+
+  transform:translateY(-10px);
+}
+
+.venue-card img{
+
+  width:100%;
+
+  height:250px;
+
+  object-fit:cover;
+}
+
+.card-content{
+
+  padding:25px;
+}
+
+.card-content h2{
+
+  color:#8B0000;
+
+  margin-bottom:15px;
+}
+
+.card-content p{
+
+  margin-bottom:10px;
+}
+
+.card-content h3{
+
+  color:#d4af37;
+
+  margin:15px 0;
+}
+
+.card-content button{
+
+  width:100%;
+
+  padding:14px;
+
+  background:#8B0000;
+
+  color:white;
+
+  border:none;
+
+  border-radius:10px;
+
+  font-size:16px;
+
+  cursor:pointer;
+}
+
+.card-content button:hover{
+
+  background:#a30000;
+}

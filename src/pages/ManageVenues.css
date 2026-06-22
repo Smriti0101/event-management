@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.venues-container {
+  min-height: 100vh;
+  background: #f4f6f9;
+  padding: 30px;
+}
+
+.venues-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.venues-header h1 {
+  color: #8b0000;
+}
+
+.add-venue-btn {
+  background: #8b0000;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.venues-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  gap: 25px;
+}
+
+.venue-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.venue-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.venue-info {
+  padding: 20px;
+}
+
+.venue-info h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.venue-info p {
+  margin-bottom: 8px;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.venue-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.edit-btn {
+  flex: 1;
+  background: #198754;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  flex: 1;
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
